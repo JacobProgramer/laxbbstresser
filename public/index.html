@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>LAXBB STRESSER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">LAXBB STRESSER</h1>
+
+    <canvas id="snow"></canvas>
+    
+    <div class="search-box">
+        <input type="text" placeholder="Enter Target (IP:PORT)" class="input">
+
+        <select class="method-select">
+            <option value="TCP">TCP</option>
+            <option value="UDP">UDP</option>
+            <option value="HTTP">HTTP</option>
+            <option value="SYN">SYN</option>
+            <option value="VSE">VSE</option>
+            <option value="DNS">DNS</option>
+            <option value="NTP">NTP</option>
+            <option value="STRESS">STRESS</option>
+        </select>
+
+        <button class="btn">Stress</button>
+    </div>
+
+    <div class="lang-box">
+        <label>Language:</label>
+        <select id="lang-select">
+            <option value="en" selected>English (EN)</option>
+            <option value="pl">Polski (PL)</option>
+        </select>
+    </div>
+
+    <footer class="footer">
+        Copyright © LaxbbStresser 2025 All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
